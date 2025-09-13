@@ -1,0 +1,25 @@
+{
+  "name": "reservation3d",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build && shx cp dist/index.html dist/404.html"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.13",
+    "dat.gui": "^0.7.9",
+    "gh-pages": "^6.3.0",
+    "shx": "^0.4.0",
+    "vite": "^7.0.4",
+    "vite-plugin-glsl": "^1.5.1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.53.0",
+    "gsap": "^3.13.0",
+    "three": "^0.178.0"
+  }
+}
